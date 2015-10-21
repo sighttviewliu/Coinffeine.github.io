@@ -1,0 +1,155 @@
+.timeline {
+    height: 2px;
+    background: #d3d3d1;
+    border:solid 1px #a5a5a3;
+    border-bottom-color: #fff;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 150px;
+    color:#999;
+}
+.timeline .datePoint {
+    display: none;
+    position: absolute;
+    top:-6px;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    border:solid 1px #36cdec;
+    border-bottom-color: #388a9a;
+    background:#11ABCA;
+    border-radius: 50%;
+
+    background-image: linear-gradient(top, #31CBEA 19%, #11ABCA 100%);
+    background-image: -o-linear-gradient(top, #31CBEA 19%, #11ABCA 100%);
+    background-image: -moz-linear-gradient(top, #31CBEA 19%, #11ABCA 100%);
+    background-image: -webkit-linear-gradient(top, #31CBEA 19%, #11ABCA 100%);
+    background-image: -ms-linear-gradient(top, #31CBEA 19%, #11ABCA 100%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0.19, #31CBEA),
+        color-stop(1, #11ABCA)
+    );
+}
+.timeline .datePoint.fatPoint em {
+    position: absolute;
+    top:20px;
+    margin-left: -8px;
+    color:#36cdec;
+    font-size: 14px;
+}
+.timeline .datePoint.smallPoint {
+    width:5px;
+    height: 5px;
+    top:-3px;
+    margin-left: -2px;
+}
+
+.timeline .event {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top:-15px;
+    width:10px;
+    height: 80px;
+    border-left:dotted 1px #babab7;
+}
+.timeline .event:before {
+    background: url('../images/roadmap/roadmap.png') no-repeat -5px -286px;
+    content: " ";
+    position:absolute;
+    top:-20px;
+    left:-10px;
+    width:20px;
+    height: 20px;
+}
+.timeline .event em {
+    position: absolute;
+    bottom: 0;
+    background: #FFF;
+    margin-left: -40px;
+    width: 113px;
+    font-size: 14px;
+    font-size: 1.4rem;
+    line-height: 1.1em;
+
+}
+
+#timelineWrapper {
+    padding-top: 70px;
+}
+#timelineWrapper h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color:#B6B1B1;
+    position: relative;
+    padding: 6px 6px 6px 40px;
+    width:150px;
+    float: left;
+    position: relative;
+    z-index: 2;
+
+    background-color: #f4f3f0;
+    border:solid 1px #ddddda;
+    border-color: #ddddda #efefeb #f4f3f0;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 #fff, inset 0 1px 0 rgba(0,0,0,0.2);
+}
+#timelineWrapper h3:before {
+    content: " ";
+    position: absolute;
+    width:18px;
+    height: 18px;
+    margin-left: -34px;
+    background: #797979;
+    border:solid 3px #b8b8b8;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.3);
+}
+
+#timelineWrapper #aboutUs_timeline {
+    margin: 0 20px 200px 220px;
+    position: relative;
+    z-index: 3;
+    top:-4px;
+}
+#timelineWrapper .bg_wrap {
+    margin-left: 100px;
+    background-color: #f4f3f0;
+    border:solid 1px #ddddda;
+    border-color: #ddddda #efefeb #f4f3f0;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    top:8px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #timelineWrapper h3 {
+        float: none;
+        margin-bottom: 20px;
+    }
+    #timelineWrapper #aboutUs_timeline {
+        margin-left: 20px;
+    }
+    #timelineWrapper .bg_wrap {
+        margin-left: 0;
+    }
+    .timeline .event em {
+        font-size: 12px;
+        font-size: 1.2rem;
+
+    }
+}
+@media only screen and (max-width: 479px) {
+    .timeline .event em {
+        font-size: 10px;
+        font-size: 1.0rem;
+        width: 70px;
+    }
+}

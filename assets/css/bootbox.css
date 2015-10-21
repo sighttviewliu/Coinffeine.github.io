@@ -1,0 +1,5 @@
+/* Styles for customized bootbox elements. */
+
+.modal { top: 20%; }
+
+.modal-dialog { width: 700px; }

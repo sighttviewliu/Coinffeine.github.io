@@ -1,0 +1,5 @@
+latest-stable {
+    major = 0
+    minor = 12
+    revision = 1
+}
