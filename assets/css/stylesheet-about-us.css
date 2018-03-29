@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    padding: 0;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+ 
+.our-story{
+	padding: 0.8vw 18vw;
+}
+.container{
+  padding-top: 3vw;
+  padding-bottom: 5vw;
+  text-align: center;
+
+}
+/*---------------GREEN/BLUE/ORANGE BOXES--------------*/
+.green{
+	order:1;
+}
+.orange{
+	order: 2;
+}
+.blue{	order: 3;
+
+}
+.orange, .green, .blue{
+	width: 20vw;
+	height:17vw;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0.8vw 1.3vw;
+	margin: 2vw 2vw;
+}
+.box h4{
+	padding: 0.3vw 0.5vw 0 0.5vw;
+}
+
+/*---------------THE PEOPLE--------------*/
+.img_wrap {
+  position: relative;
+  height: 320px;
+  width: 300px;
+  display:inline-block;
+	padding-top: 15px;
+
+}
+.img_img{
+	height: 300px;
+	width: 300px;
+	
+}
+.img_description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(91, 193, 186, 0.8);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 16px;
+ 
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img_wrap:hover .img_description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*---------------DIAGONAL BACKGROUNDS--------------*/
+.diagonal{
+	text-align: center;
+
+}
+.diagonal3{
+	padding-bottom: 3vw;
+	padding-left: 0vw;
+    padding-right: 0vw;
+
+}
+.diagonal3 p{
+
+	}
+
+/*---------------MEDIA QUERYS--------------*/
+@media screen and (max-width: 736px){
+	.box{
+	
+	}
+	.orange, .green, .blue{
+		width: 60%;
+		height: 180px;
+		padding: 0.8vw 1.3vw;
+		margin: auto;
+	}
+	.green p{
+		max-width: 80%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	.blue p{
+		max-width: 80%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	.orange p{
+		max-width: 80%;
+		margin-left:auto;
+		margin-right: auto;
+	}
+	.orange{
+		margin-bottom: 3vw;
+		margin-top: 3vw;
+	}
+	#find-out-more p{
+    	display: none;
+  	}
+  	.img_wrap {
+	  height: 420px;
+	  width: 400px;
+	}
+	.img_img{
+		height: 400px;
+		width: 400px;
+	}
+	.img_description {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 500px){
+	.box{
+	
+	}
+	.orange, .green, .blue{
+		width: 80%;
+	}
+	.img_wrap {
+		height: 420px;
+	  width: 400px;
+	  display:block;
+	  padding-top: 55px;
+	  margin:auto;
+	 }
+	.img_img{
+		height: 400px;
+		width: 400px;
+	}
+	.box{
+		padding-bottom: 55px;
+	}
+	.img_description {
+	  top: 35px;
+	  font-size: 18px;
+	}
+	
+}
+	
+/*--two diagonal background colors--*/
+
+	background-color: #f1f1f1;
+	background-image: -webkit-linear-gradient(-98deg, #f1f1f1 35%, #A1A1A1 35%);
+  	min-height: 200px;
+
+
+  	/*--overlap--*/
+  	position: absolute;
+	z-index: 1;
+
+
+
+
+
