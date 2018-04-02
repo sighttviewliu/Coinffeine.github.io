@@ -1,6 +1,6 @@
 
 body {
-  min-width: 960px;
+  width: 100%;
 }
 
 /* `Container
@@ -300,6 +300,11 @@ body {
 /* `Clear Floated Elements
 ----------------------------------------------------------------------------------------------------*/
 
+@media screen and (max-width: 959px){
+.container_12{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 736px){
   .container_12{
     width: 100%;

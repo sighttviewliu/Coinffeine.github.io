@@ -3,11 +3,12 @@ body{
     padding: 0;
     margin-left:auto;
     margin-right: auto;
+    width: 100%;
   }
 
 /*-------------------------STYLE HEADER----------------------*/
 .header{
-	width: 100%;
+	max-width: 100%;
 	background-image: url(/assets/images/FR/background/hero-background1.png);
 	color: #FFFFFF;
 	background-repeat: no-repeat;
@@ -85,10 +86,23 @@ iframe{
 /*-------------------------MEDIA QUERYS---------------------*/
 
 
-@media screen and (max-width: 980px){
-	.press img{
-		height:25px;
+@media screen and (max-width: 959px){
+	body{
+		width: 100%;
 	}
+	.header{
+		max-width: 100%;
+	}
+	.press{
+		max-width: 100%;
+	}
+	.press img{
+		height:19px;
+	}
+	.container2{
+		max-width: 100%;
+	}
+
 
 }
 @media screen and (max-width: 736px){	
