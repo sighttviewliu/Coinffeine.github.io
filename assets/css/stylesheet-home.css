@@ -1,0 +1,161 @@
+body{
+    margin:0;
+    padding: 0;
+    margin-left:auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+/*-------------------------STYLE HEADER----------------------*/
+.header{
+	max-width: 100%;
+	background-image: url(/assets/images/FR/background/hero-background1.png);
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+}
+
+.header h3{
+	padding-top: 0.9vw;
+}
+
+
+/*------------------STYLE HERO------------------*/
+.hero{
+	text-align: center;
+	padding-top: 15vw;
+	padding-bottom: 10vw;
+}
+.menu a{
+  color: #FFFFFF;
+
+}
+.press{
+	background-color: rgba(83, 106, 127, 0.5);
+	opacity: 0.8;
+	padding-bottom: 0.9vw;
+	padding-top: 0.9vw;
+
+}
+.press img{
+	height:27px;
+	padding-right: 1vw;
+	padding-top: 0.5vw;
+	padding-bottom:0.5vw;
+}
+.coinffeine-screen{
+	width: 30vw;
+	height: auto;
+}
+}
+iframe{
+	width:600px;
+	height:450px;
+	} 
+/*--------------------------COINFFEINE-------------------*/
+.container2{
+   padding:7vw 9vw;
+}
+#coinffeine h3{
+	color: #5DCEF9;
+	font-size: 2vw;
+}
+ 
+/*---------------------------FEATURES---------------------*/
+
+
+#features h2{
+	padding-bottom: 0vw;
+}
+#features p{
+	margin: 0vw 0.5vw;
+}
+.icon img{
+	height: 70px;
+	width: auto;
+	padding-bottom: 0.5vw;
+}
+.features{
+	padding-bottom: 4vw;
+	width: 100%;	
+}
+
+/*-------------------------MEDIA QUERYS---------------------*/
+
+
+@media screen and (max-width: 959px){
+	body{
+		width: 100%;
+	}
+	.header{
+		max-width: 100%;
+	}
+	.press{
+		max-width: 100%;
+	}
+	.press img{
+		height:19px;
+	}
+	.container2{
+		max-width: 100%;
+	}
+
+
+}
+@media screen and (max-width: 736px){	
+	#coinffeine h3{
+		font-size: 24px;
+	}
+	.press{
+		display: none;
+	}
+	.container3{
+	  padding-bottom:0vw;
+	}
+	.center{
+		max-width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.features{
+		padding-bottom: 5%;
+	}
+	#features .grid_5{
+		max-width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}	
+	#find-out-more p{
+    	display: none;
+  	}
+	.coinffeine-screen{
+		width: 350px;
+		height: auto;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	.center{
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#features .grid_5{
+		max-width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	
+}
+@media screen and (max-width: 400px){
+	.coinffeine-screen{
+		width: 90%;
+		height: auto;
+		align-items: center;
+	}
+}
