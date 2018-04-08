@@ -688,6 +688,9 @@ label{
   #footer .footer-nav{
       display: none;
     }
+	.contact a{
+	    font-size: 10px;
+	  }
 
 }
 
