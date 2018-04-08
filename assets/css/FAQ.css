@@ -175,3 +175,78 @@ p[id^="view"]:target{
 .top:hover{
 	background-color: #9FE2FC;
 }
+
+/*--------------------MEDIA-QUERY-----------------*/
+@media screen and (max-width: 959px){
+	body{
+		max-width: 100%;
+	}
+	.container{
+		max-width: 100%;
+		padding: 3% 5% 4% 5%;
+	}
+}
+@media screen and (max-width: 736px){	
+	body{
+		max-width: 100%;
+	}
+	.container{
+		max-width: 100%;
+		padding: 3% 5% 4% 5%;
+	}
+	#faq-heading h4 h2{
+		text-align: center;
+	}
+	.faq-menu a{
+		font-size: 16px;
+		text-align: center;
+		padding: 0.5vw 0vw 1.5vw 0vw;
+	}
+	.title{
+		font-size: 16px;
+		text-align: center;
+		padding: 0.5vw 0vw 1.5vw 0vw;
+	}
+	.faq-questions p{
+		font-size: 14px;
+		text-align: center;
+
+	}
+	.faq-questions h2, .faq-menu h2{ 
+		font-size: 16px;
+		text-align: center;
+		padding-top: 2%;
+		padding-bottom: 2%;
+	}
+	.grid_8{
+		max-width: 90%;
+	}
+	.grid_3{
+		max-width: 90%;
+	}
+}	
+
+@media screen and (max-width: 500px){
+	.container{
+		max-width: 100%;
+		padding: 3% 2% 4% 2%;
+	}
+	#faq-heading h2{
+		max-width: 100%;
+		font-size: 20px;
+		text-align: center;
+	}
+	#faq-heading h4{
+		max-width: 100%;
+		font-size: 16px;
+		text-align: center;
+	}.grid_8{
+		max-width: 96%;
+	}
+	.grid_3{
+		max-width: 96%;
+	}
+	.title{
+		padding: 0.5vw 0vw 2vw 0vw;
+	}
+}
