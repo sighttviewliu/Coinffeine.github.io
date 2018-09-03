@@ -21,7 +21,7 @@ body{
 
 h1{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 3vw;
+	font-size: 36px;
 	line-height: 100%;
 	letter-spacing: .04em;
 	font-weight:normal;
@@ -30,7 +30,7 @@ h1{
 }
 
 h2{
-    font-size: 2.5vw;
+    font-size: 26px;
     font-weight: lighter;
     line-height: 110%;
     letter-spacing: .05em;
@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-	font-size: 2.2vw;
+	font-size: 24px;
 	line-height: 120%;
 	letter-spacing: .04em;
 	font-weight: lighter;
@@ -46,7 +46,7 @@ h3{
 }
 
 h4{
-	font-size: 2vw;
+	font-size: 22px;
 	line-height: 120%;
 	letter-spacing: .04em;
 	font-weight: normal;
@@ -55,7 +55,7 @@ h4{
 }
 
 p{
-    font-size: 1.3vw;
+    font-size: 16px;
     font-weight: lighter;
     line-height: 1.5em;
     display: block;
@@ -74,24 +74,6 @@ li>a:link, li>a:visited{
 @media screen and (min-width: 1200px){
   body{
     width: 100%;
-  }
-  h1{
-    font-size: 42px;
-  }
-  h2{
-    font-size: 36px;
-  }
-  h3{
-    font-size: 32px;
-  }
-  h4{
-    font-size: 26px;
-  }
-  p{
-    font-size: 22px;
-  }
-  .text-small{
-  
   }
 }
 @media screen and (max-width: 959px){
