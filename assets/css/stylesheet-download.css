@@ -1,4 +1,5 @@
 body{
+	width: 100%;
     margin:0;
     padding: 0;
     margin-left:auto;
@@ -13,6 +14,7 @@ body{
 	position: relative;
 	height: 700px;
 	margin-top: 3vw;
+	width: 100%;
 
 }
 .title{
@@ -29,6 +31,7 @@ iframe{
 	height:515px;
 }
 .background2{
+	width: 100%;
 	padding-top: 20%;
 	padding-bottom: 5%;
 }
@@ -111,15 +114,20 @@ iframe{
 	z-index: 0;
 }
 .coming-soon{
-	width: 500px;
+	width: 100%;
   height: auto;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
-  padding-top: 8%;
-	padding-left: 35%; 
+  padding-top: 4%;
 
+}
+.coming-soon img{
+	width: 55%;
+	height: auto;
+	padding-left: 22%;
+	padding-right: 22%;
 }
 .orange1{
   background-color: #f1f1f1;
@@ -147,6 +155,7 @@ iframe{
 	height: 270px;
 	z-index: 0;
 }
+
 /*--------------------MEDIA-QUERY-----------------*/
 
 @media screen and (min-width: 1200px){
@@ -180,6 +189,16 @@ iframe{
 	}
 	.background{
 		height: 600px;
+	}
+	.box{
+		padding-top: 200px;
+	}
+	.coming-soon img{
+	  height: auto;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  z-index: 10;
 	}
 }
 @media screen and (max-width: 736px){
@@ -215,15 +234,7 @@ iframe{
 		width:600px;
 		height:400px;
 	}
-	.coming-soon img{
-		width: 400px;
-	  height: auto;
-	  position: absolute;
-	  top: 0;
-	  left: 0;
-	  z-index: 10;
-		padding-left: 20%; 
-	}
+	
 	.box{
 		padding-top: 150px;
 	}
@@ -241,8 +252,7 @@ iframe{
 		height: 400px;
 	}
 	.coming-soon img{
-		width: 300px;
-		padding-left: 10%; 
+		
 	}
 	.box{
 		padding-top: 100px;
@@ -271,8 +281,11 @@ iframe{
 		height: 350px;
 	}
 	.coming-soon img{
-		width: 250px;
-		padding-left: 8%; 
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 5%;
+		padding-bottom: 5%;
 	}
 	.box{
 		max-width: 100%;

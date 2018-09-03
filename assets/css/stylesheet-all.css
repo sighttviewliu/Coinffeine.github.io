@@ -21,7 +21,7 @@ body{
 
 h1{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 36px;
+	font-size: 38px;
 	line-height: 100%;
 	letter-spacing: .04em;
 	font-weight:normal;
@@ -30,7 +30,7 @@ h1{
 }
 
 h2{
-    font-size: 26px;
+    font-size: 32px;
     font-weight: lighter;
     line-height: 110%;
     letter-spacing: .05em;
@@ -38,7 +38,7 @@ h2{
 }
 
 h3{
-	font-size: 24px;
+	font-size: 26px;
 	line-height: 120%;
 	letter-spacing: .04em;
 	font-weight: lighter;
@@ -55,14 +55,14 @@ h4{
 }
 
 p{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: lighter;
     line-height: 1.5em;
     display: block;
     padding: 0.5vw;
 }
 .text-small{
-	font-size: 1.2vw;
+	font-size: 18px;
   padding: 0.5vw;
 }
 
@@ -86,25 +86,14 @@ li>a:link, li>a:visited{
 }
 
 @media screen and (max-width: 736px){
- 
-  h1{
-    font-size: 26px;
-  }
-  h2{
-    font-size: 24px;
-  }
-  h3{
-    font-size: 22px;
-  }
-  h4{
-    font-size: 20px;
-  }
-   p{
-    font-size: 16px;
-  }
-  .text-small{
-    font-size: 18px;
-  }
+ h1{
+  font-size: 34px;
+ }
+ h2{
+  font-size: 30px
+ }h3{
+  font-size: 24px;
+ }
 }
 @media only screen and (max-width: 480px) {
   p{
@@ -419,14 +408,14 @@ li>a:link, li>a:visited{
 .logo-header{
   float: left;
   margin: 0 0 0 3vw;
-  padding-top: 2vw;
+  padding-top: 0.5vw;
   width: 18%;
   height: auto;
 }
 .menu{
   max-width:100%; 
   margin: 0 3vw 0 0;
-  padding-top: 2vw;
+  padding-top: 0.5vw;
   position: relative;
   z-index: 99;
 }
@@ -441,6 +430,15 @@ li>a:link, li>a:visited{
 }
 .menu a:hover{
   color: #FF8654;
+}
+.es{
+  width: 96%;
+  position: relative;
+  text-align: right;
+  padding: 1vw 0 1vw 0;
+}
+.es a{
+  padding: 5px;
 }
 label{
   margin: 0 4vw 0 0;
@@ -670,9 +668,12 @@ label{
   #footer .footer-nav{
       display: none;
     }
-	.contact a{
-	    font-size: 10px;
-	  }
+  .grid_2{
+    width: 100%;
+  }
+  .contact a{
+    font-size: 10px;
+  }
 
 }
 

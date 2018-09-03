@@ -177,6 +177,7 @@ p[id^="view"]:target{
 }
 
 /*--------------------MEDIA-QUERY-----------------*/
+
 @media screen and (max-width: 959px){
 	body{
 		max-width: 100%;
